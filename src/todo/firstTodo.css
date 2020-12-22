@@ -1,0 +1,47 @@
+.container{
+    margin: 100px auto;
+    width: 300px;
+    text-align: center;
+}
+.header{
+    display: flex;
+    justify-content: center;
+  
+  }
+  .inputsection{
+    width: 250px;
+
+  }
+  .inputsection input:focus{
+      outline: solid 2px salmon;
+
+  }
+  .content{
+    box-sizing: border-box;
+   }
+   ul{
+     margin:0;
+     padding: 0;
+     box-sizing: border-box;
+   }
+   ul li{
+     list-style-type: none;
+     padding: 10px;
+     border-bottom: 1px solid salmon;
+     box-sizing:border-box;
+    
+   }
+   .delete{
+       float: right;
+       background-color: red;
+       padding: 2px 5px;
+       border-radius: 2px;
+       text-transform: lowercase;
+   }
+   .clear {
+       float: right;
+       font-size: 15px;
+       font-weight: bold;
+   }
+
+
